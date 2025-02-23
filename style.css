@@ -1,0 +1,39 @@
+#container {
+  display: flex;
+}
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  border: 2px solid black;
+  /* para que en lugar de cuadrados sean círculos */
+  /* border-radius: 50%; */
+}
+
+.cuadrado:hover {
+  transform: rotate(360deg);
+  font-size: 100px;
+  transition: 1s;
+}
+
+.cuadrado:nth-child(1) {
+  background-color: blue;
+}
+.color2 {
+  background-color: rgb(34, 17, 4);
+  display: none;
+}
+.color3 {
+  background-color: red;
+}
+.color4 {
+  background-color: gray;
+}
+.color5 {
+  background-color: rgb(118, 57, 67);
+}
